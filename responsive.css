@@ -1,0 +1,154 @@
+@media (max-width: 984px){
+
+    #imagen{
+        width: 200px;
+
+    }
+
+    #palabra_a_adivinar span{
+       
+        font-size: 2em;
+        
+        width:30px;
+       
+        margin-right: 6px;
+        
+    
+    }
+
+    .game__btn{
+       
+        width: 14rem;
+        height: 3rem;
+        margin: 10px 10px 0 10px;
+    }
+
+    #letras button{
+        width:4rem;
+        height:3rem;
+        
+    }
+
+
+}
+
+@media (max-width: 768px){
+
+    #palabra_a_adivinar span{
+       
+        font-size: 1.6rem;
+        
+        width:25px;
+       
+        margin-right: 5px;
+        
+    
+    }
+
+
+
+    #letras button{
+        width:3rem;
+        height:2rem;
+        
+    }
+
+    #resultado{
+        color:#0A3871;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    
+
+
+}
+
+
+
+
+@media (max-width: 576px){
+
+    #palabra_a_adivinar span{
+       
+        font-size: 1.4rem;
+        
+        width:20px;
+       
+        margin-right: 4px;
+        
+    
+    }
+
+    #resultado{
+        color:#0A3871;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+
+    .text-input{
+        
+        
+        font-size: 1.4rem;
+        
+        
+    }
+
+    .btn{
+    
+        width: 12rem;
+        height: 3rem;
+        margin-top: 1rem;
+      
+        
+    }
+
+    .game__btn{
+       
+        width: 10rem;
+        height: 3rem;
+        
+    }
+
+}
+
+@media (max-width: 415px){
+
+
+    #imagen{
+        width: 130px;
+        height: 130px;
+        margin-top:30px;
+
+    }
+
+    #palabra_a_adivinar span{
+       
+        font-size: 1.2rem;
+        
+        width:1rem;
+       
+        margin-right: 3px;
+        
+    
+    }
+
+    .game__btn{
+       
+        width: 7rem;
+        height: 2rem;
+        font-size:0.8rem;
+        
+    }
+
+
+    #letras button{
+        width:1.4rem;
+        height:1.5rem;
+        font-size:10px;
+        
+    }
+
+
+
+}

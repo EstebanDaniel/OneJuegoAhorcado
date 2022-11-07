@@ -1,0 +1,215 @@
+body{
+    background:#E5E5E5;
+}
+
+.master{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    height: 0px;
+}
+
+  .alura{
+    display:block;
+    text-align:left;
+    width: 25px;
+    height: 35px;
+    margin:50px 0 0 25px;
+    
+}
+
+
+section{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    gap: 30px;
+   
+}
+
+.empezar{
+    display:none;
+}
+
+
+
+
+#imagen{
+    width: 200px;
+    height: 200px;
+
+}
+
+#palabra_a_adivinar{
+    height:3em;
+}
+
+#palabra_a_adivinar span{
+    color:#0A3871;
+    font-weight: bold;
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid #0A3871;
+    width:30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block; /*sin esto por ser un elemento de linea no tomaria el width*/
+
+}
+
+/* mensaje de ganaste o perdiste*/
+#resultado{
+    color:#0A3871;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+
+#letras{
+    margin-top :30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:5px;
+}
+
+#letras button{
+    width:4rem;
+    height:3rem;
+    padding: 2px 0; /*sacamos padding a la iz y derecha porque se suman por defecto*/
+    text-align: center;
+}
+
+#jugar{
+    margin-top :30px;
+}
+
+.nuevaPalabra{
+    display:none;
+}
+
+/*-----------------------botones en el gameplay----------------------*/
+.game__btn{
+    border-radius:1rem;
+    width: 14rem;
+    height: 3rem;
+    border-color: #0A3871;
+    border-width: 1px;
+    cursor:pointer;
+    margin: 0 10px 0 10px;
+}
+
+.--choise{
+    background-color:#0A3871;
+    color: #fff;
+
+}
+
+.game__btn:hover{
+    
+    transform: scale(0.9);
+    transition: 0.2s all;
+}
+
+.--back{
+    background-color:#E5E5E5;
+    color: #0A3871;
+}
+
+
+
+/*botones del modo teclado--------------------------------------*/
+
+.keyboard button{
+
+    background-color: #0A3871;
+    border-color:#051a68;
+    border-width: 1px;
+    color:#F3F5FC;
+    cursor: pointer;
+}
+
+.keyboard button:hover{
+    background:#E5E5E5;
+    color:#0A3871;
+    transform: scale(0.9);
+    transition: 0.3s all;
+    
+}
+
+/*textarea y botones en la parte de guardar palabra----------------------------*/
+.menu__add{
+    width: 80%;
+    gap: 100px;
+    
+}
+
+/*propiedades modificadas para el textarea-----------------------*/
+.text-input{
+    background:#E5E5E5;
+    display: block;
+    margin: auto;
+    color:#0A3871;
+    font-size: 1.6rem;
+    width:40%;
+    height:330px;
+    border:none;
+    font-family:sans-serif;
+    resize: none;
+    
+}
+
+.text-input::placeholder{
+    color:#0A3871;
+}
+
+.text-input:focus{
+
+    outline: none;
+}
+
+
+.btn{
+    
+    border-radius:1rem;
+    width: 14rem;
+    height: 3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin-left:0.8rem;
+    margin-right: 0.8rem;
+    border-color: #0A3871;
+    border-width: 1px;
+    
+}
+
+.--save{
+    
+    background-color: #0A3871;
+    color: #fff;
+}
+.--save:hover{
+    
+    transform: scale(0.9);
+    transition: 0.2s all;
+}
+
+.--cancel{
+    background-color:#E5E5E5;
+    color:#0A3871;
+}
+
+.--cancel:hover{
+    
+    transform: scale(0.9);
+    transition: 0.2s all;
+}
